@@ -1,7 +1,8 @@
-{-# OPTIONS_GHC -Wall -fwarn-tabs #-}
+{-# OPTIONS_GHC -Wall -Wno-name-shadowing -fwarn-tabs #-}
 module Formula where
 
 import Data.Maybe
+import Data.List
 
 type Id = String
 

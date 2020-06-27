@@ -1,8 +1,5 @@
-{-# OPTIONS_GHC -Wall -fwarn-tabs #-}
+{-# OPTIONS_GHC -Wall -Wno-name-shadowing -fwarn-tabs #-}
 module DPLL where
-
-import Data.List
-import Data.Maybe
 
 import Formula
 
