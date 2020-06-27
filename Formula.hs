@@ -23,10 +23,12 @@ instance Show Formula where
   show (BiCond f f')  = "(" ++ show f ++ " ↔ " ++ show f' ++ ")"
 
 ands :: [Formula] -> Formula
+--Pre: there are at least two formulae in the list argument
 ands
   = foldr1 And
 
 ors :: [Formula] -> Formula
+--Pre: there are at least two formulae in the list argument
 ors
   = foldr1 Or
 
